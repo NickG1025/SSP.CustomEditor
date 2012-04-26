@@ -10,7 +10,7 @@ namespace SSP.CustomEditor
         IconClass = "mce_pdw_toggle",
         EditorInitConfigurationOptions = @"{
             pdw_toggle_on : 1,
-            pdw_toggle_toolbars : ""1,2"" }"
+            pdw_toggle_toolbars : ""1"" }"
         )]
     public class Pdw
     {

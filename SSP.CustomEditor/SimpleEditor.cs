@@ -34,7 +34,8 @@ namespace SSP.CustomEditor
             var buttons = new List<string> { "bold", "italic", "separator", "epilink", "unlink", "separator", "removeformat", "code" };
             var toolbarRow = new ToolbarRow(buttons);
             settings.ToolbarRows.Add(toolbarRow);
-            settings.Height = 100;
+            settings.Height = 300;
+            settings.Width = 541;
         }
 
         public int GetSettingsHashCode(TinyMCESettings settings)
@@ -45,7 +46,7 @@ namespace SSP.CustomEditor
 
         public bool OverWriteExistingSettings
         {
-            get { return true; }
+            get { return false; }
         }
     }
 }

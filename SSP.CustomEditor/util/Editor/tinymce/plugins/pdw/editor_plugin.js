@@ -41,7 +41,6 @@
 * Thanks Anton for fixing this bug
 * 
 */
-console.log("hei");
 (function () {
     var DOM = tinymce.DOM;
     tinymce.PluginManager.requireLangPack('pdw');

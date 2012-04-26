@@ -59,13 +59,14 @@ namespace SSP.CustomEditor
             var buttonsRow2 = new List<string>
                                   {
                                       "epidynamiccontent", 
+                                      "epipersonalizedcontent",
+                                      "separator",
                                       "media",
+                                      "epiimageeditor",
                                       "separator", 
                                       "removeformat", 
-                                      "code"
-                                  };
-            var buttonsRow3 = new List<string>
-                                  {
+                                      "code",
+                                      "separator", 
                                       "tablecontrols", 
                                       "table", 
                                       "row_props", 
@@ -80,12 +81,10 @@ namespace SSP.CustomEditor
                                       "merge_cells"
                                   };
             
-
             settings.ToolbarRows.Add(new ToolbarRow(buttonsRow1));
             settings.ToolbarRows.Add(new ToolbarRow(buttonsRow2));
-            settings.ToolbarRows.Add(new ToolbarRow(buttonsRow3));
             settings.Height = 300;
-            settings.Width = 500;
+            settings.Width = 541;
         }
 
         public int GetSettingsHashCode(TinyMCESettings settings)
@@ -96,7 +95,7 @@ namespace SSP.CustomEditor
 
         public bool OverWriteExistingSettings
         {
-            get { return true; }
+            get { return false; }
         }
     }
 }
