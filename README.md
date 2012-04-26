@@ -7,6 +7,8 @@ Customized TinyMCE editors for EPiServer.
 * Add two editors, Simple and Advanced.
 * Simple contains text formatting (bold and italic)
 * Advanced contains more buttons, but hide most of them using a "Kitchen sink" button. 
+* Enableds ``<iframe>`` support
+* Fixes Firefox 11 "hidden text" bug
 
 ## Dependencies
 * PageTypeBuilder 2.0
