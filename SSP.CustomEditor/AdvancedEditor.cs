@@ -63,7 +63,9 @@ namespace SSP.CustomEditor
                                       "separator",
                                       "media",
                                       "epiimageeditor",
-                                      "separator", 
+                                      "separator",
+                                      "pastetext",
+                                      "pasteword",
                                       "removeformat", 
                                       "code",
                                       "separator", 
@@ -95,7 +97,7 @@ namespace SSP.CustomEditor
 
         public bool OverWriteExistingSettings
         {
-            get { return false; }
+            get { return true; }
         }
     }
 }
