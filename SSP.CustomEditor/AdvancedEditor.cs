@@ -97,7 +97,7 @@ namespace SSP.CustomEditor
 
         public bool OverWriteExistingSettings
         {
-            get { return true; }
+            get { return false; }
         }
     }
 }
